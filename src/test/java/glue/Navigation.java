@@ -70,11 +70,7 @@ public class Navigation {
 	
 	@When("^Get coockies$")
 	public void get_cookies () {
-		System.out.println("//////////////////////////////");
-		System.out.println("//////////////////////////////");
-		System.out.println("//////////////////////////////");
-		System.out.println("//////////////////////////////");
-		System.out.println("//////////////////////////////");
+		
 		
 		System.out.println(webDriver.manage().getCookies());
 	}
