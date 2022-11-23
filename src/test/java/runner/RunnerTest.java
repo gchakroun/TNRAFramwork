@@ -17,7 +17,7 @@ import org.junit.BeforeClass;
 		tags = "@createCGUser"
 
 )
-public class Runner {
+public class RunnerTest {
 	
 	@BeforeClass
     public static void setUpClass() throws Exception
