@@ -39,8 +39,8 @@ public class Navigation {
 	public void open_new_tab() throws Throwable {
 
 		webDriver.switchTo().newWindow(WindowType.TAB);
-		System.out.println(Colors.YELLOW_CONSOLE_COLOR + "************ New Tab is opned ***************"
-				+ Colors.RESET_CONSOLE_COLOR);
+//		System.out.println(Colors.YELLOW_CONSOLE_COLOR + "************ New Tab is opned ***************"
+//				+ Colors.RESET_CONSOLE_COLOR);
 
 	}
 
@@ -48,8 +48,8 @@ public class Navigation {
 	public void close_new_tab() throws Throwable {
 
 		webDriver.close();
-		System.out.println(Colors.YELLOW_CONSOLE_COLOR + "************ Current Tab is closed ***************"
-				+ Colors.RESET_CONSOLE_COLOR);
+//		System.out.println(Colors.YELLOW_CONSOLE_COLOR + "************ Current Tab is closed ***************"
+//				+ Colors.RESET_CONSOLE_COLOR);
 
 	}
 

@@ -24,8 +24,8 @@ public class Click extends ConnectDriver {
 		click = new WebDriverWait(webDriver, Duration.ofSeconds(Time.DEFALUT_WEB_WELEMENT_WAIT))
 				.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
 		click.click();
-		System.out.println(Colors.GREEN_CONSOLE_COLOR + "Element with xpath: " + xpath + " has been clicked"
-				+ Colors.RESET_CONSOLE_COLOR);
+//		System.out.println(Colors.GREEN_CONSOLE_COLOR + "Element with xpath: " + xpath + " has been clicked"
+//				+ Colors.RESET_CONSOLE_COLOR);
 
 	}
 

@@ -25,8 +25,8 @@ public class Set {
 
 		input = webDriver.findElement(By.xpath(xpath));
 		input.sendKeys(value);
-		System.out.println("Value : " + value + " has been set in the field with path: " + xpath);
-		System.out.println("********************************************************************\n");
+//		System.out.println("Value : " + value + " has been set in the field with path: " + xpath);
+//		System.out.println("********************************************************************\n");
 	}
 
 }
