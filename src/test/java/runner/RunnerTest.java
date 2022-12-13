@@ -13,11 +13,10 @@ import org.junit.BeforeClass;
 @CucumberOptions(features = { "src/test/resources" }, plugin =
 // {"progress", "json:target/cucumber.json"}, // --> verbose---
 { "pretty", "html:target/cucumber-html-reports.html", "json:target/cucumber.json",
-		"junit:target/junit-cucumber-reports/Cucumber-junit.xml" }, // --> verbose+++
-//{ "summary", "json:target/cucumber.json" }, // --> default formatter (recommended)
+		"junit:target/junit-cucumber-reports/Cucumber-junit.xml" }, 
 		glue = { "/", "com.finlogik.tnr.framwork.setps" },  // vérifier les glues sans exécuter le
 																			// scenario
-		dryRun = false, monochrome = false, publish = false, stepNotifications = true, useFileNameCompatibleName = true,
+		stepNotifications = true, useFileNameCompatibleName = true,
 
 		tags = "@createCGUser",
 

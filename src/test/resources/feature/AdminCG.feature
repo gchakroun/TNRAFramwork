@@ -6,7 +6,7 @@ Scenario: connect
 
 
 And Connect to the url "https://google.com/"
-And Set the value "Java" in the xpath "\\*[@class='gLFyf']"
+And Set the value "Java" in the xpath "DivByClass"
 
 
 Scenario: Trading 

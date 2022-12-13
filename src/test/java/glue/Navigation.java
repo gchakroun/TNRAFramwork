@@ -19,6 +19,8 @@ public class Navigation {
 
 		// (Duration.ofSeconds(10))
 
+		
+		
 		try {
 			webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Time.DEFALUT_LOAD_TIME));
 			webDriver.get(url);
